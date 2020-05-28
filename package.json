@@ -1,0 +1,21 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/bot.js",
+    "start": "node src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "canvas-to-buffer": "^1.1.0",
+    "jimp": "^0.12.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "vk-io": "^4.0.0-rc.30"
+  }
+}
